@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/casbin/casbin-pg-adapter/pkg/model"
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/util"
-	"github.com/cychiuae/casbin-pg-adapter/pkg/model"
 )
 
 // TestAdapter is a very bad all-in-one integration test to test the adapter

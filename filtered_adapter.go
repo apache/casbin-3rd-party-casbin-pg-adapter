@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"errors"
 
+	"github.com/casbin/casbin-pg-adapter/pkg/model"
 	casbinModel "github.com/casbin/casbin/v2/model"
-	"github.com/cychiuae/casbin-pg-adapter/pkg/model"
 )
 
 // FilteredAdapter is the filtered file adapter for Casbin. It can load policy
